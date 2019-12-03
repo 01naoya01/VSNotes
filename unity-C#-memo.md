@@ -3,7 +3,7 @@ tags:
     - Unity
 ---
 
-if(Input.GetKey(KeyCode.A)){
+if(Input.GetKey(KeyCode.Space)){
     //Aを押した時の動作
     //Input.GetKeyUpでキーから指から離れたら
     //Input.GetKeyDownでキーが押されたら
@@ -54,6 +54,9 @@ Instantiate(gameObject型，Vector3型，Quaternion.identity));
 identityは(0f,0f,0f)と同じ
 
 
+public Rigidbody rb;
+rd.AddForce(x,y,z);
+x,y,z方向に発射するって感じ．例えばxとyを100fにすればxとy軸の間みたいな方向に飛ばせる．これはRigidbodyでないと使えない．インスペクターのRigidbodyをrbにつっこむ．
 
 
 
