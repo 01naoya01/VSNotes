@@ -8,6 +8,7 @@ tags:
 rigidbodyの重さを変えるにはmassを調整すればいい
 
 色はprojectのcreateのmaterialを使う
+(半)透明にしたい場合はRendaring ModeをFadeにして色のところのAのバーを左の方にする
 
 オブジェクト名は同一でも構わない，つまり例えばAにぶつかったら消えるみたいなコードを書いて消えてほしいオブジェクトの名前を全部Aにすればうまくいく
 
@@ -16,3 +17,7 @@ rigidbodyの重さを変えるにはmassを調整すればいい
 Rigidbodyのuse gravityのチェックを消せば無重力にできる
 
 オブジェクトをprojectに入れるプレハブ化を行えば，オブジェクトが画面にない状態でも呼び出せたりすることができる．
+
+新しいシーンを作りたい場合はProjectのcreateでSceneを選べばよい
+なお，loadScene等を使う場合はロードしたいシーンを「File->Build Setteings->Scenes In Build」にドラッグアンドドロップしなければならない
+
