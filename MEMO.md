@@ -89,5 +89,6 @@ int main(){
 
 printf("%.8f\n",ans);
 
-# 
+# 床関数 
 
+floor(x)でx以下の最大の整数を得る
