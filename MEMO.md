@@ -92,3 +92,12 @@ printf("%.8f\n",ans);
 # 床関数 
 
 floor(x)でx以下の最大の整数を得る
+
+# 乱数
+範囲指定した乱数
+
+    random_device rnd;
+    mt19937 mt(rnd());
+    uniform_int_distribution<> rand100(0, 99);
+    long long n=rand100(mt);
+
