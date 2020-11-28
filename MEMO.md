@@ -101,3 +101,11 @@ floor(x)でx以下の最大の整数を得る
     uniform_int_distribution<> rand100(0, 99);
     long long n=rand100(mt);
 
+# 順序の全探索
+https://blog.foresta.me/posts/enumerate_all_pattern/
+
+https://atcoder.jp/contests/abc183/editorial/286
+
+# ラムダ式
+https://c.keicode.com/cpp/cpp-lambda.php
+
