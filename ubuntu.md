@@ -12,6 +12,7 @@ code server1.go
 
 もし保存できない場合はserver1.goに対して
 sudo chmod 777 server1.go
+https://qiita.com/takuyanin/items/18590600d077df707923
 
 # ローカルなwebアプリの開き方
 goのプログラムからwebサイト開くには
@@ -85,7 +86,7 @@ netsh.exe interface portproxy show v4tov4
 sudo lsof -i:8080
 
 ポートを消したい時？
-sudo kill -9 PID
+sudo kill -9 (消したいやつのPIDの番号)
 
 # 再ログイン(ubuntuの？)
 exec $SHELL -l
@@ -121,3 +122,11 @@ git push -u origin master
 
 -uについては以下を参照
 https://qiita.com/shumpeism/items/1b8027c8905ca826416d
+
+code server3.goでWSL側からVSCodeを実行
+
+
+# サーバーの公開
+ngrok http 8080
+で公開できる
+
